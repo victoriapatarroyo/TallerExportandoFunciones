@@ -1,3 +1,10 @@
+/* Integrantes taller:
+    Nicolás Mendieta
+    Geidy Lorena Pontón
+    David Mateo Rodríguez
+    Victoria Patarroyo
+*/
+
 import { PI, IVA, DIAS_SEMANA, DESCUENTO } from "./constantes.js";
 import { sumar, restar, multiplicar, areaCirculo, calcularTotal, aplicarImpuestos, aplicarDescuento, aplicarDescuentoPorRol } from "./operaciones-matematicas.js";
 import { ROLES } from "./usuarioConstantes.js";

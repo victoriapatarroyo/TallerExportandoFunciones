@@ -1,3 +1,10 @@
+/* Integrantes taller:
+    Nicolás Mendieta
+    Geidy Lorena Pontón
+    David Mateo Rodríguez
+    Victoria Patarroyo
+*/
+
 import { DESCUENTO, PI, IVA } from "./constantes.js";
 import { Usuario } from "./usuarios.js";
 
