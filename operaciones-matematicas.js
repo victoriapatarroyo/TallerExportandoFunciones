@@ -30,5 +30,9 @@ export function aplicarDescuento(total) {
 }
 
 export function aplicarDescuentoPorRol(total, usuario) {
-    
+    if(usuario.rol === "admin") {
+        return total * 0.8;
+    } else {
+        return total * (1 - DESCUENTO);
+    }
 }
