@@ -42,10 +42,10 @@ let usuario3 = new crearUsuario("Luis", ROLES.ADMIN);
 let totalUsuarioSinIva3 = calcularTotal(25, 4);
 let totalUsuario3 = aplicarImpuestos(totalUsuarioSinIva3);
 let descuentoUsuario3 = aplicarDescuentoPorRol(totalUsuario3, usuario3);
-console.log("El valor a pagar como usuario admin es: " + descuentoUsuario3);
+console.log("Luis, el valor a pagar como usuario admin es: " + descuentoUsuario3);
 
 let usuario4 = new crearUsuario("Adriana", ROLES.CLIENTE);
 let totalUsuarioSinIva4 = calcularTotal(50, 3);
 let totalUsuario4 = aplicarImpuestos(totalUsuarioSinIva4);
 let descuentoUsuario4 = aplicarDescuentoPorRol(totalUsuario4, usuario4);
-console.log("El valor a pagar como usuario clientes es: " + descuentoUsuario4);
+console.log("Adriana, el valor a pagar como usuario clientes es: " + descuentoUsuario4);
